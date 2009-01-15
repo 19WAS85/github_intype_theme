@@ -1,0 +1,402 @@
+{
+	title: 'GitHub' 
+	settings: [
+		{
+			settings : { 
+				
+				caret : '#000000'
+				foreground : '#000000'
+				selection : '#BCD5FA'
+				invisibles : '#BFBFBF'
+				line_highlight : '#00000012'
+				background : '#F8F8FF'
+			}
+		}
+		{
+			scope : 'source'
+			title : 'Source'
+			settings : { 
+				background : '#F8F8FF'
+			}
+		}
+		{
+			scope : 'comment'
+			title : 'Comment'
+			settings : { 
+				foreground : '#999988'
+				font_style : 'italic'
+			}
+		}
+		{
+			scope : 'keyword, storage'
+			title : 'Keyword'
+			settings : { 
+				foreground : '#000000'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'keyword.operator.assignment'
+			title : 'Keyword operator'
+			settings : { 
+				foreground : '#000000'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'keyword.other.special-method'
+			title : 'keyword like new'
+			settings : { 
+				font_style : ''
+			}
+		}
+		{
+			scope : 'entity.name.function, keyword.other.name-of-parameter.objc'
+			title : 'Function (definition)'
+			settings : { 
+				foreground : '#990000'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'entity.name'
+			title : 'Class (definition)'
+			settings : { 
+				foreground : '#445588'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'constant.numeric'
+			title : 'Number'
+			settings : { 
+				foreground : '#009999'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'variable.language, variable.other'
+			title : 'Variable'
+			settings : { 
+				foreground : '#108888'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'constant.language'
+			title : 'Built-in constant'
+			settings : { 
+				foreground : '#000000'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'variable.other.constant.ruby'
+			title : 'Variable'
+			settings : { 
+				foreground : '#0F8787'
+			}
+		}
+		{
+			scope : 'constant.language'
+			title : 'Built-in constant'
+			settings : { 
+				foreground : '#000000'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'string'
+			title : 'String'
+			settings : { 
+				foreground : '#DD1144'
+			}
+		}
+		{
+			scope : 'entity.other.inherited-class'
+			title : 'Inherited class'
+			settings : { 
+				foreground : '#0F8787'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'punctuation.separator.inheritance'
+			title : 'Inherited class seperator'
+			settings : { 
+				foreground : '#000000'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'punctuation.separator.variable'
+			title : 'punctuation block'
+			settings : { 
+				foreground : '#000000'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'punctuation.section.array'
+			title : 'array brackets'
+			settings : { 
+				foreground : '#000000'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'punctuation.separator.key-value'
+			title : 'hash separator'
+			settings : { 
+				foreground : '#000000'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'punctuation.section.function'
+			title : '() brackets'
+			settings : { 
+				foreground : '#000000'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'punctuation.section.scope'
+			title : 'hash brackets'
+			settings : { 
+				foreground : '#000000'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'keyword.other.special-method.ruby'
+			title : 'Special ruby method'
+			settings : { 
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'constant.other.symbol'
+			title : 'symbol'
+			settings : { 
+				foreground : '#AA2C8C'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'support.class.ruby'
+			title : 'Support class'
+			settings : { 
+				foreground : '#008080'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'string.regexp'
+			title : 'String.regexp'
+			settings : { 
+				foreground : '#009926'
+			}
+		}
+		{
+			scope : 'string.quoted source'
+			title : 'String embedded source'
+			settings : { 
+				foreground : '#000000'
+			}
+		}
+		{
+			scope : 'meta.tag.sgml.html'
+			title : 'doctype punctation'
+			settings : { 
+				foreground : '#999999'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'entity.name.tag.doctype'
+			title : 'doctype declaration'
+			settings : { 
+				foreground : '#999999'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'string.quoted.double.doctype'
+			title : 'doctype string'
+			settings : { 
+				foreground : '#999999'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'punctuation.definition.tag'
+			title : 'html tag punctuation'
+			settings : { 
+				foreground : '#121289'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'entity.name.tag'
+			title : 'html tag punctuation'
+			settings : { 
+				foreground : '#121289'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'entity.other.attribute-name'
+			title : 'html attribute'
+			settings : { 
+				foreground : '#0A8585'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'entity.other.attribute-name'
+			title : 'html attribute punctation'
+			settings : { 
+				foreground : '#0A8585'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'punctuation.section.embedded.ruby'
+			title : 'erb tags'
+			settings : { 
+				foreground : '#999999'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'source.ruby.embedded.source punctuation.section.embedded.ruby'
+			title : 'ruby string interpolation'
+			settings : { 
+				foreground : '#CF1040'
+			}
+		}
+		{
+			scope : 'punctuation.section.property-list.css'
+			title : 'css brackets'
+			settings : { 
+				font_style : ''
+			}
+		}
+		{
+			scope : 'support.type.property-name.css'
+			title : 'css property'
+			settings : { 
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'punctuation.separator.key-value.css'
+			title : 'css property punctuation'
+			settings : { 
+				foreground : '#000000'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'meta.property-value, constant.other.color'
+			title : 'css property value'
+			settings : { 
+				foreground : '#009999'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'punctuation.terminator.rule.css'
+			title : 'css ending'
+			settings : { 
+				foreground : '#000000'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'support.constant.font-name'
+			title : 'css font'
+			settings : { 
+				foreground : '#000000'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'keyword.other.unit'
+			title : 'css keyword'
+			settings : { 
+				foreground : '#009999'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'entity.other.attribute-name.pseudo-class'
+			title : 'pseudo class'
+			settings : { 
+				foreground : '#000000'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'support.constant.property-value'
+			title : 'css constant property value'
+			settings : { 
+				foreground : '#000000'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'entity.other.attribute-name.class'
+			title : 'css attribute class'
+			settings : { 
+				foreground : '#445588'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'entity.other.attribute-name.id'
+			title : 'css attribute id'
+			settings : { 
+				foreground : '#990000'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'meta.diff.header.from-file'
+			title : 'diff header from'
+			settings : { 
+				foreground : '#000000'
+				font_style : ''
+				background : '#FFDDDD'
+			}
+		}
+		{
+			scope : 'meta.diff.header.to-file'
+			title : 'diff header to'
+			settings : { 
+				foreground : '#000000'
+				font_style : ''
+				background : '#DDFFDD'
+			}
+		}
+		{
+			scope : 'markup.inserted.diff'
+			title : 'diff inserted'
+			settings : { 
+				font_style : ''
+				background : '#DDFFDD'
+			}
+		}
+		{
+			scope : 'markup.deleted.diff'
+			title : 'diff deleted'
+			settings : { 
+				foreground : '#000000'
+				font_style : ''
+				background : '#FFDDDD'
+			}
+		}
+	]
+	uuid : '26786979-843B-4FE2-BCB6-4FCEC6F8FB58' 
+}
